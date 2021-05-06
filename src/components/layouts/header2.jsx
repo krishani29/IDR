@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroForm from '../common/heroForm';
-import MainNav2 from '../common/mainNav2';
+import MainNav from '../common/mainNav';
 import SecondaryNav from '../common/secondaryNav';
 
 function header2(props) {
@@ -14,7 +14,7 @@ function header2(props) {
                 {/* <!--============ End Secondary Navigation ===========================================================-->
               
                <!--============ Main Navigation ====================================================================--> */}
-                <MainNav2 parent={props.parent} pathtitle={props.title}/>
+                <MainNav parent={props.parent} pathtitle={props.title}/>
                 {/* <!--============ End Main Navigation ================================================================-->
              
                <!--============ Hero Form ==========================================================================--> */}
