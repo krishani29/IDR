@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: QumpellkaNo12
+font link: http://www.glukfonts.pl/font.php?font=QumpellkaNo12
+font author: GLUK
+font author site: http://www.glukfonts.pl/
+
+
+icon designer: Larisa Skosyrska
+icon designer link: /Lara.Skosyrska
+        
+{"bg":"#2E1435","icon":"#EAE8E7","font":"#EAE8E7","slogan":"#fefcfb"}
+      

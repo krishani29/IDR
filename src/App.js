@@ -1,26 +1,40 @@
 import logo from './logo.svg';
-import './loginStyle.css';
-import './login.js';
+import Home from './pages/Home';
+import Login from './components/layouts/login';
+import SignUp from './components/layouts/signup';
+import Footer from './components/common/footer';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename={'/'}>
+        <div className="App">
+          {/* <Header /> */}
+          {/* <Header3 />*/}
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path={`${process.env.PUBLIC_URL}/login`} component={Login} />
+            <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp} />
+            {/* 
+            <Route path={`${process.env.PUBLIC_URL}/check-otp`} component={OTP} />
+            
+            <Route path={`${process.env.PUBLIC_URL}/forgot-password`} component={ForgotPassword} />
+            <Route path={`${process.env.PUBLIC_URL}/change-password`} component={ChangePassword} />
+            <Route path={`${process.env.PUBLIC_URL}/my-profile`} component={MyProfile} />
+            <Route path={`${process.env.PUBLIC_URL}/ads-listing`} component={AdsListing} />
+            <Route path={`${process.env.PUBLIC_URL}/ads-detail`} component={AdsDetail} />
+            <Route path={`${process.env.PUBLIC_URL}/submit-ad`} component={SubmitAd} /> */}
+
+
+          </Switch>
+
+        </div>
+        <Footer />
+
+      </Router>
+
   );
 }
 

@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: PermianSerifTypeface
+font link: https://www.fontsquirrel.com/fonts/permian-serif
+font author: Ilya Ruderman
+font author site: 
+
+
+icon designer: Larisa Skosyrska
+icon designer link: /Lara.Skosyrska
+        
+{"bg":"#EBEAF4","icon-gradient-0":"#E98E0D","icon-gradient-1":"#1536F1","font":"#2F2849","slogan":"#433c5d"}
+      

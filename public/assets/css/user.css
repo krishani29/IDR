@@ -1,0 +1,107 @@
+/* Here comes your own styling */
+img#search-step {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: 0.4rem;
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1250px;
+}}
+img#chat-step {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+img#done-step {
+    width: 6rem;
+    height: 7rem;
+    margin-top: 0.4rem;
+}
+figure.step-img {
+    margin-left: 13rem;
+}
+button#start-now {
+    padding-inline: 5rem;
+    border-radius: 1.5rem;
+    background-color: #c55bd7;
+}
+.col-md-3 .gridimg {
+    width: 245px;
+    height: 180px;
+    border-radius: 2rem;
+    opacity: 0.85;
+    box-shadow: 0 0 4px black;
+}
+.gridimg:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+h3.overlay {
+    position: relative;
+    left: 2rem;
+    bottom: 3rem;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 0.4rem;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+}
+.overlay:hover{
+    text-shadow: 1px 1px 15px black;
+}
+.page-title #title1, .page-title #title2 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px -1px 10px black;
+}
+#progrid h3 {
+    position: relative;
+    bottom: 4.8rem;
+    text-shadow: 1px 1px 15px black;
+}
+#progrid {
+    margin-top: -4rem;
+}
+.container.top-pro-container {
+    margin-top: -10rem;
+}
+button#showProfile {
+    width: 12rem;
+    height: 3rem;
+    padding: 0px;
+    margin-top: 1.5rem;
+}
+.profilelogo img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+hr#part1 {
+    width: 50%;
+    float: left;
+}
+hr#part2 {
+    width: 50%;
+    float: right;
+}
+button.btn.btn-primary.social-btn {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+.social-btn.fb {
+    background-color: #3b5998;
+}
+.social-btn.ggl, .social-btn.ggl:hover {
+    background: white;
+    color: black;
+}
+.social-btn i {
+    width: 4rem;
+}
+.ggl i{
+    color: green;
+}
