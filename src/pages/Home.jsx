@@ -75,7 +75,7 @@ function Home(props) {
 
                     <section class="block">
                         <div class="container">
-                        <Grid_section 
+                        <Grid_section  hoverclass="HomeHover"
                         title="Explore Images" 
                         subtitle="Browse through millions of home and living pictures"
                         picsrc1="assets/img/img1.jpg"    t1="Living Room"
@@ -85,7 +85,7 @@ function Home(props) {
                         />
                         
                         
-                        <Grid_section class="progrid"
+                        <Grid_section class="progrid" hoverclass="HomeHover"
                          title="Find Professionals"
                          subtitle="Contact thousands of experts from one single directory"
                          picsrc1="assets/img/de1.jpg" t1="Design Planners"

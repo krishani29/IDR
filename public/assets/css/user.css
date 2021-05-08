@@ -241,6 +241,9 @@ div#roomclassid {
 #room .form-group.pro-location .geo-location {
     left: 19rem;
 }
+.HomeHover{
+    display: none;
+}
 .saveHover {
     position: relative;
     background: linear-gradient(45deg, black, transparent);
