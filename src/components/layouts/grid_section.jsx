@@ -8,31 +8,37 @@ function grid_section(props) {
             <div class="row">
                 <div class="col-md-3 ">
                     <img src={props.picsrc1} className="gridimg" alt="" />
-                         <h3 className="overlay">{props.t1}</h3>
-                   
-                    {/* <!--end grid4-box--> */}
-                </div>
-                {/* <!--end col--> */}
-                <div class="col-md-3 ">
-                        <img src={props.picsrc2} className="gridimg" alt="" />
-                        <h3 className="overlay">{props.t2}</h3>
-                    {/* <!--end grid4-box--> */}
-                </div>
-                {/* <!--end grid4-box--> */}
-                {/* <!--end col--> */}
-                <div class="col-md-3 ">
-                        <img src={props.picsrc3} className="gridimg" alt="" />
-                        <h3 className="overlay">{props.t3}</h3>
-                    {/* <!--end grid4-box--> */}
-                </div>
-                <div class="col-md-3 ">
-                        <img src={props.picsrc4} className="gridimg" alt="" />
-                        <h3 className="overlay">{props.t4}</h3>
-                    {/* <!--end grid4-box--> */}
-                </div>
-                {/* <!--end col--> */}
+                    <h3 className="overlay">{props.t1}</h3>
+                    <div className={props.hoverclass}>
+                        <a href="#" class="btn btn-success small">+ Save</a>
+                    </div>
 
-                {/* <!--end col--> */}
+                </div>
+                <div class="col-md-3 ">
+                    <img src={props.picsrc2} className="gridimg" alt="" />
+                    <h3 className="overlay">{props.t2}</h3>
+                    <div className={props.hoverclass}>
+                        <a href="#" class="btn btn-success small">+ Save</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ">
+                    <img src={props.picsrc3} className="gridimg" alt="" />
+                    <h3 className="overlay">{props.t3}</h3>
+                    <div className={props.hoverclass}>
+                        <a href="#" class="btn btn-success small">+ Save</a>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+                    <img src={props.picsrc4} className="gridimg" alt="" />
+                    <h3 className="overlay">{props.t4}</h3>
+                    <div className={props.hoverclass}>
+                        <a href="#" class="btn btn-success small">+ Save</a>
+                    </div>
+
+                </div>
+
             </div>
             {/* <!--end row--> */}
         </div>

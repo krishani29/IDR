@@ -4,6 +4,9 @@ img#search-step {
     height: 4.5rem;
     margin-top: 0.4rem;
 }
+a.navbar-brand {
+    margin-left: 1.5rem;
+}
 @media (min-width: 1200px){
 .container {
     max-width: 1250px;
@@ -19,7 +22,7 @@ img#done-step {
     margin-top: 0.4rem;
 }
 figure.step-img {
-    margin-left: 13rem;
+    margin-left: 15rem;
 }
 button#start-now {
     padding-inline: 5rem;
@@ -27,20 +30,22 @@ button#start-now {
     background-color: #c55bd7;
 }
 .col-md-3 .gridimg {
-    width: 245px;
-    height: 180px;
+    width: 260px;
+    height: 185px;
     border-radius: 2rem;
     opacity: 0.85;
     box-shadow: 0 0 4px black;
+    margin: 2rem;
 }
 .gridimg:hover{
     opacity: 1;
     cursor: pointer;
+    transform: scale(1.01);
 }
 h3.overlay {
     position: relative;
-    left: 2rem;
-    bottom: 3rem;
+    left: 4rem;
+    bottom: 5rem;
     color: white;
     font-weight: bolder;
     letter-spacing: 0.4rem;
@@ -104,4 +109,156 @@ button.btn.btn-primary.social-btn {
 }
 .ggl i{
     color: green;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    color: #fff;
+    background-color: #a61ebd;
+    border-color: #6f0082;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgb(174 0 255 / 50%);
+}
+.col-6.regimg img {
+    height: 45rem;
+    margin-left: -4rem;
+    margin-top: 3rem;
+}
+input#mobile_number {
+    margin-left: -2rem;
+    width: 107%;
+}
+.col-6.regimg {
+    margin-left: -4rem;
+}
+.col-xl-5.col-lg-5.col-md-6.col-sm-8.pro-sign-div {
+    background: rgb(0 0 0 / 0%);
+    padding: 5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px black;
+    margin-top: 1rem;
+}
+a.nav-link:hover{
+    color: snow !important;
+    text-shadow: 0px 0px 1px black;
+    
+}
+a.nav-link{
+    text-shadow: 0px 0px 0px black;
+}
+.pages .hero .main-navigation {
+    z-index: 999;
+    position: relative;
+    background-image: url("../../assets/img/hero-background-image-03.jpg");
+
+}
+.pages a.nav-link{
+    color: rgb(48, 47, 47) !important;
+}
+.pages a.nav-link:hover{
+    color: black !important;   
+}
+.form-group.pro-location .geo-location {
+    left: 22rem;
+    bottom: 4.1rem;
+    position: relative;
+}
+ul.typeList {
+    list-style: none;
+    margin-left: -3rem;
+}
+.item.prof-list .rating {
+    /* background: pink; */
+    width: 15rem;
+    position: relative;
+    padding: 1rem;
+    left: 29.7rem;
+    top: 7rem;
+}
+.item.prof-list .rating i {
+    font-size: large;
+    padding-inline: 0.2rem;
+}
+.ratingNumber {
+    position: relative;
+    left: 41.8rem;
+    top: 3.4rem;
+    width: 5rem;
+}
+a.btn.btn-primary.text-caps.showprofile {
+    position: relative;
+    left: 76rem;
+    top: 11rem;
+}
+.col-3.sidebar {
+    background: #f2f2f2;
+    padding: 2.3rem;
+    border-radius: 3rem;
+    position: relative;
+    left: -2rem;
+    box-shadow: 0 0.1px 4px black;
+    height: 100rem;
+}
+.prof-list .profilelogo img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    border: 2px solid black;
+    position: relative;
+    left: 20rem;
+    bottom: 3.3rem;
+   
+}
+div#room .page-title h1 {
+    text-align: center;
+}
+.col-9.content.room-pics .col-md-3 img {
+    width: 23rem;
+    height: 23rem;
+    margin: 1rem;
+    margin-bottom: -8rem;
+    border-radius: 1.2rem;
+    opacity: 1;
+}
+.room-pics .row {
+    margin-right: -5rem;
+    margin-left: -4rem;
+    height: 18rem;
+    margin-bottom: -5rem;
+  
+}
+.room-pics .page-pagination {
+    text-align: center;
+    margin: 12rem 0px 3rem -18rem;
+}
+div#roomclassid {
+    margin-top: -9rem;
+}
+#room .col-3 {
+    max-width: 22%;
+    left: -3rem;
+    height: 103rem;
+}
+#room .form-group.pro-location .geo-location {
+    left: 19rem;
+}
+.saveHover {
+    position: relative;
+    background: linear-gradient(45deg, black, transparent);
+    width: 227px;
+    height: 227px;
+    border-radius: 1rem;
+    bottom: 16.8rem;
+    left: 1rem;
+    visibility: hidden;
+    cursor:zoom-in
+}
+.saveHover a {
+    margin: auto;
+    position: relative;
+    top: 10rem;
+    left: 8.5rem;
+    transition: .01s ease;
+}
+#room .room-pics .col-md-3:hover .saveHover{
+    visibility: visible;
 }

@@ -5,7 +5,7 @@ import Header2 from '../layouts/header2';
 function SignUp(props) {
     return (
         <div>
-            <div class="page sub-page">
+            <div class="page sub-page pages">
 
                 <Header2 parent="Home" title="Sign Up" />
 

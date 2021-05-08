@@ -8,9 +8,9 @@ function SecondaryNav(props) {
             <div class="container">
                 <ul class="left">
                     <li>
-                       <a href="my-ads.html">
+                       <Link to={`${process.env.PUBLIC_URL}/InteriorDesigner-signup`}>
                             <i class="fa fa-user"></i>Become Professional
-                                </a>
+                                </Link>
                     </li>
                 </ul>
                 {/* <!--end left--> */}

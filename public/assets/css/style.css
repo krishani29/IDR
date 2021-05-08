@@ -480,6 +480,7 @@ Headers:		'Varela Round', sans-serif;
 .hero .main-navigation {
     z-index: 999;
     position: relative;
+    
 }
 .hero .main-navigation .navbar {
     border-bottom: .1rem solid rgba(0,0,0,.1);
@@ -728,7 +729,7 @@ Headers:		'Varela Round', sans-serif;
 }
 .hero ul {
     list-style: none;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 .hero .page-title {
@@ -1161,8 +1162,10 @@ Headers:		'Varela Round', sans-serif;
     left: inherit !important;
 }
 .items:not(.selectize-input).list .item .wrapper {
-    min-height: 18rem;
+    min-height: 25rem;
     padding-bottom: 0;
+    margin-bottom: -5rem;
+
 }
 .items:not(.selectize-input).list .item .image {
     width: 100%;
@@ -1255,10 +1258,10 @@ Headers:		'Varela Round', sans-serif;
     left: 27rem;
     z-index: 1;
     height: 4rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .items:not(.selectize-input).list .item .description p {
-    width: 80%;
+    width: 90%;
 }
 /*------ Detail ------*/
 .items:not(.selectize-input).list .item .detail {
@@ -1312,7 +1315,7 @@ Headers:		'Varela Round', sans-serif;
     padding-right: 20rem;
 }
 .items:not(.selectize-input).list.compact .item .image .background-image {
-    width: 20rem;
+    width: 30rem;
 }
 .items:not(.selectize-input).list.compact .item .image .image-wrapper {}
 .items:not(.selectize-input).list.compact .item .image .image-wrapper:before {
@@ -1333,10 +1336,10 @@ Headers:		'Varela Round', sans-serif;
     font-size: 1rem;
 }
 .items:not(.selectize-input).list.compact .item h3, .items:not(.selectize-input).list.compact .item h4, .items:not(.selectize-input).list.compact .item .description {
-    left: 22rem;
+    left: 31rem;
 }
 .items:not(.selectize-input).list.compact .item h3 .tag.category {
-    left: -20.3rem;
+    left: -29.3rem;
 }
 .items:not(.selectize-input).list.compact .item .price {
     padding: .3rem 1.1rem;
@@ -1344,7 +1347,7 @@ Headers:		'Varela Round', sans-serif;
 }
 .items:not(.selectize-input).list.compact .item .description {
     padding-right: 20rem;
-    bottom: 1.4rem;
+    bottom: 7.4rem;
 }
 .items:not(.selectize-input).list.compact .item .description p {
     font-size: 1.2rem;

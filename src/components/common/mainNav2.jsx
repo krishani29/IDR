@@ -18,7 +18,7 @@ function mainNav2(props) {
                         {/* <!--Main navigation list--> */}
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">Home</a>
+                                <Link class="nav-link" to="/">Home</Link>
                             </li>
                             <li class="nav-item has-child">
                                 <a class="nav-link" href="#">Listing</a>

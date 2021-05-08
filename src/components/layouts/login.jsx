@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function login(props) {
     return (
         <div>
-            <div class="page sub-page">
+            <div class="page sub-page pages">
 
                 <Header2 parent="Home" title="Login" />
                 <section class="content">

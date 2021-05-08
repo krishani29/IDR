@@ -4,6 +4,9 @@ import Login from './components/layouts/login';
 import SignUp from './components/layouts/signup';
 import Footer from './components/common/footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import InteriorDesignerSignUp from './components/layouts/InteriorDesignerSignUp';
+import Professional from './pages/Professional';
+import Rooms from './pages/Rooms';
 
 
 
@@ -14,9 +17,12 @@ function App() {
           {/* <Header /> */}
           {/* <Header3 />*/}
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
             <Route path={`${process.env.PUBLIC_URL}/login`} component={Login} />
             <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp} />
+            <Route path={`${process.env.PUBLIC_URL}/InteriorDesigner-signup`} component={InteriorDesignerSignUp} />
+            <Route path={`${process.env.PUBLIC_URL}/Professional`} component={Professional} />
+            <Route path={`${process.env.PUBLIC_URL}/Rooms`} component={Rooms} />
             {/* 
             <Route path={`${process.env.PUBLIC_URL}/check-otp`} component={OTP} />
             

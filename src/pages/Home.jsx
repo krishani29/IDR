@@ -91,7 +91,7 @@ function Home(props) {
                          picsrc1="assets/img/de1.jpg" t1="Design Planners"
                          picsrc2="assets/img/de3.jpg" t2="Interior Designers"
                          picsrc3="assets/img/de4.jpg" t3="Decorators"
-                         picsrc4="assets/img/de2.jpg" t4="Interior Designer Firms"
+                         picsrc4="assets/img/de2.jpg" t4="Designer Firms"
                          />
 
                         </div>
@@ -107,7 +107,7 @@ function Home(props) {
                             <div class="items grid grid-xl-4-items grid-lg-3-items grid-md-2-items">
                                 <AdsItem 
                                 picsrc="assets/img/b7.jpg"
-                                componylogo="/assets//icons/l1.jpg"
+                                componylogo="/assets/icons/l1.jpg"
                                 name="MONOCEROS INTERARCH SOLUTIONS"
                                 address="Mehsana, Gujarat" />
                                 {/* <!--end item--> */}
