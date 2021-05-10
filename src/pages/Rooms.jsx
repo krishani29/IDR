@@ -56,24 +56,28 @@ function Rooms(props) {
                                     picsrc2="assets/img/r2.jpg" 
                                     picsrc3="assets/img/r3.jpg" 
                                     picsrc4="assets/img/r4.jpg" 
+                                    roomsrc={`${process.env.PUBLIC_URL}/Img-detail`}
                                 />
                                 <Grid_section   hoverclass="saveHover"
                                     picsrc1="assets/img/r5.jpg" 
                                     picsrc2="assets/img/r6.jpg" 
                                     picsrc3="assets/img/r7.jpg" 
                                     picsrc4="assets/img/r8.jpg" 
+                                    roomsrc={`${process.env.PUBLIC_URL}/Img-detail`}
                                 />
                                  <Grid_section  hoverclass="saveHover"
                                     picsrc1="assets/img/r9.jpg" 
                                     picsrc2="assets/img/r10.jpg" 
                                     picsrc3="assets/img/r11.jpg" 
-                                    picsrc4="assets/img/r12.jpg" 
+                                    picsrc4="assets/img/r12.jpg"
+                                    roomsrc={`${process.env.PUBLIC_URL}/Img-detail`} 
                                 />
                                  <Grid_section  hoverclass="saveHover"
                                     picsrc1="assets/img/r13.jpg" 
                                     picsrc2="assets/img/r14.jpg" 
                                     picsrc3="assets/img/r15.jpg" 
                                     picsrc4="assets/img/r16.jpg" 
+                                    roomsrc={`${process.env.PUBLIC_URL}/Img-detail`}
                                 />
                                 {/* <!--============ Items ==========================================================================--> */}
 

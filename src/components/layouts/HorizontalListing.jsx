@@ -8,14 +8,14 @@ function HorizontalListing(props) {
                     <h3>
                         <a href="#" class="tag category" id="prof-list-cat">{props.type}</a>
                        
-                        <a href="single-listing-1.html" class="title">{props.companyName}</a>
+                        <a href={`${process.env.PUBLIC_URL}/Designer-detail`} class="title">{props.companyName}</a>
                         <b><div className="profilelogo">
                                 <img src={props.componylogo} alt="" srcset="" />
                             </div></b>
                         
                        
                     </h3>
-                    <a href="single-listing-1.html" class="image-wrapper background-image">
+                    <a href={`${process.env.PUBLIC_URL}/Designer-detail`} class="image-wrapper background-image">
                         <img src={props.picsrc} alt="" />
                     </a>
                 </div>
@@ -30,7 +30,7 @@ function HorizontalListing(props) {
                 </div>
                 {/* <!--end description--> */}
                 
-                <a href="single-listing-1.html" class="btn btn-primary text-caps showprofile ">Show Profile</a>
+                <a href={`${process.env.PUBLIC_URL}/Designer-detail`} class="btn btn-primary text-caps showprofile ">Show Profile</a>
             </div>
         </div>
 

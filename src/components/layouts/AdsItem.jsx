@@ -15,10 +15,10 @@ function SoldItem(props) {
                 <div class="image">
                     <h3>
                         <a href="#" class="tag category">Home & Decor</a>
-                        <a href="single-listing-1.html" class="title">Furniture for sale</a>
+                        <a href={`${process.env.PUBLIC_URL}/Designer-detail`} class="title">Furniture for sale</a>
                         <span class="tag ml-2">Offer</span>
                     </h3>
-                    <a href="single-listing-1.html" class="image-wrapper background-image">
+                    <a href={`${process.env.PUBLIC_URL}/Designer-detail`} class="image-wrapper background-image">
                         <img src="assets/img/image-01.jpg" alt="" />
                     </a>
                 </div>
@@ -67,10 +67,10 @@ function AdsItem(props) {
                 <div class="image">
                     <h3>
                         <a href="#" class="tag category">Interior Designer</a>
-                        <a href="single-listing-1.html" class="title">{props.name}</a>
+                        <a href={`${process.env.PUBLIC_URL}/Designer-detail`} class="title">{props.name}</a>
                       
                     </h3>
-                    <a href="single-listing-1.html" class="image-wrapper background-image">
+                    <a href={`${process.env.PUBLIC_URL}/Designer-detail`} class="image-wrapper background-image">
                         <img src={props.picsrc} alt="" />
                     </a>
                 </div>

@@ -265,3 +265,155 @@ div#roomclassid {
 #room .room-pics .col-md-3:hover .saveHover{
     visibility: visible;
 }
+.container-fluid.detailpage-cover {
+    height: 35rem;
+    background-image: url("../../assets/img/b3.jpg");
+    margin-top: -3rem;
+}
+.container.DesignerDetail {
+    margin-top: 5rem;
+}
+.DesignerDetail .profilelogo img {
+    height: 12rem;
+    width: 12rem;
+}
+.DesignerDetail .rating i {
+    font-size: x-large;
+    padding: 5px;
+}
+.container.DesignerDetail .ratingNumber {
+    left: 19rem;
+    margin-top: -6.7rem;
+    font-size: large;
+}
+.DesignerDetail .rating{
+    margin-top: 4rem;
+}
+.detail-tab {
+    margin-top: 5rem;
+}
+.row.services-address {
+    margin-top: 4rem;
+}
+.col-3.s1 {
+    border-right: 1px dotted purple;
+}
+ul.socialLink {
+    list-style: none;
+    margin-left: -2rem;
+    cursor: pointer;
+}
+table.projectWindow {
+    width: 35rem;
+    height: 22rem;
+    margin: 1rem;
+    
+    box-shadow:  0 0 3px black;
+}
+#c1,#c4{
+    background-image: url("../../assets/icons/detailc1.jpg");
+    width: 175px;
+    height: 203px;
+    border-radius: 1rem;
+}
+#c4{
+    background-image: url("../../assets/icons/dc4.jpg");
+}
+#c5{
+    background-image: url("../../assets/icons/dc5.jpg");
+}
+#c6{
+    background-image: url("../../assets/icons/dc6.jpg");
+}
+#c2,#c5{
+    background-image: url("../../assets/icons/c2.jpg");
+    width: 148px;
+    height: 99px;
+    border-radius: 1rem;
+}
+#c3,#c6{
+    background-image: url("../../assets/icons/c3.jpg");
+    width: 148px;
+    height: 99px;
+    border-radius: 1rem;
+}
+.projects {
+    width: 345px;
+    height: 242px;
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px black;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+caption {
+    position: relative;
+    left: 4rem;
+    bottom: 1rem;
+}
+.card img {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    width: 185px;
+    height: 190px;
+    border-radius: 100%;
+    box-shadow:  0 0 3px black;
+   
+}
+.team .card{
+    text-align: center;
+    border-radius: 2rem;
+    height: 42rem;
+}
+.owl-stage-outer.owl-height {
+    height: 100% !important;
+}
+.Imgdetail .prof-info .profilelogo{
+    margin-left: -8rem;
+}
+.Imgdetail .prof-info .location{
+    margin-top: -3rem;
+    font-size: large;
+}
+.rqst.col-9 {
+    margin-top: 3rem;
+    margin-left: -1rem;
+}
+.close-btn {
+    position: relative;
+    left: 32rem;
+    bottom: 21rem;
+   
+}
+.close-btn img{
+    box-shadow:  0 0 5px black;border-radius: 100%;
+}
+
+.addProject.row {
+    margin-top: 8.5rem;
+    /* background: pink; */
+    width: 14rem;
+    margin-inline: auto;
+}
+.myProfile a.nav-link:hover,.addProject a.nav-link:hover {
+    color: #6c757d !important;
+    text-shadow: 0px 0px 1px black;
+}
+.fileadd {
+   
+    width: 4rem;
+    position: relative;
+    left: -6rem;
+}
+.fileadd i {
+    font-size: x-large;
+    margin-top: 1.4rem;
+}
+#myProfile #profile-menu{
+  display: block;
+  visibility: visible;
+}
+#profile-menu{
+    display: none;
+    visibility: hidden;
+  }

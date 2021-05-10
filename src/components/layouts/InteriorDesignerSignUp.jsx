@@ -5,7 +5,7 @@ import Header2 from '../layouts/header2';
 function InteriorDesignerSignUp(props) {
     return (
         <div>
-            <div class="page sub-page pages">
+            <div class="page sub-page pages"  id="myProfile">
 
                 <Header2 parent="Home" title="Become Professional" />
 
@@ -82,7 +82,9 @@ function InteriorDesignerSignUp(props) {
                                         </div>
                                         <div className="center mt-4">
                                        
-                                                <button type="submit" class="col-10 btn btn-primary pro-sign-btn">Submit</button>
+                                               <a href={`${process.env.PUBLIC_URL}/profile`}>
+                                               <button type="submit" class="col-10 btn btn-primary pro-sign-btn">Submit</button>
+                                               </a> 
                                         
                                         </div>
                                        

@@ -6,7 +6,7 @@ function MainNav(props) {
         <div class="main-navigation">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/">
                         <img src="assets/icons/default.png" alt="" />
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,9 +28,12 @@ function MainNav(props) {
                             <li class="nav-item">
                                 <a class="nav-link" href={`${process.env.PUBLIC_URL}/Rooms`}>Rooms</a>
                             </li> 
+                            <li class="nav-item" id="profile-menu">
+                                <a class="nav-link" href={`${process.env.PUBLIC_URL}/my-profile`}>My Profile</a>
+                            </li> 
 
                           <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Team</a>
+                                <a class="nav-link" href={`${process.env.PUBLIC_URL}/team`}>Team</a>
                             </li>
                             {/* <li class="nav-item">
                                 <Link to={`${process.env.PUBLIC_URL}/submit-ad`} class="btn btn-primary text-caps btn-rounded btn-framed">Submit Ad</Link>

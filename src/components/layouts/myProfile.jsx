@@ -7,7 +7,7 @@ import Sidebar from './sidebar';
 function myProfile(props) {
     return (
         <div>
-            <div class="page sub-page">
+            <div class="page sub-page pages" id="myProfile">
 
                 <Header2 parent="User" title="My Profile" />
 
@@ -15,7 +15,7 @@ function myProfile(props) {
         <!--*********************************************************************************************************--> */}
                 <section class="content">
                     <section class="block">
-                        <div class="container">
+                        <div class="container myProfile">
                             <div class="row">
                                 <Sidebar />
                                 {/* <!--end col-md-3--> */}
@@ -33,6 +33,7 @@ function myProfile(props) {
                                                                     <option value="">Title</option>
                                                                     <option value="1" selected>Mrs</option>
                                                                     <option value="2">Mr</option>
+                                                                    <option value="3">Ms</option>
                                                                 </select>
                                                             </div>
                                                             {/* <!--end form-group--> */}
@@ -47,15 +48,53 @@ function myProfile(props) {
                                                         {/* <!--end col-md-8--> */}
                                                     </div>
                                                     {/* <!--end row--> */}
+                                                    <div className="row">
+                                                    <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="city" class="col-form-label required">City</label>
+                                                        <select name="city" id="city" data-placeholder="Select City" required>
+                                                            <option value="">City</option>
+                                                            <option value="1">Ahmedabad</option>
+                                                            <option value="2">Mehsana</option>
+                                                            <option value="3">Sargasan</option>
+                                                            <option value="4">Visnagar</option>
+                                                        </select>
+                                                    </div>
+                                                    </div>
+                                                  
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="district" class="col-form-label required">District</label>
+                                                            <select name="district" id="district" data-placeholder="Select District" required>
+                                                                <option value="">District</option>
+                                                                <option value="1">Ahmedabad</option>
+                                                                <option value="2">Mehsana</option>
+                                                                <option value="3">Gandhinagar</option>
+                                                                
+                                                            </select>
+                                                        </div>
+                                                        {/* <!--end form-group--> */}
+                                </div>
+                                                    </div>
+                                                    
                                                     <div class="form-group">
                                                         <label for="location" class="col-form-label required">Your Location</label>
                                                         <input name="location" type="text" class="form-control" id="input-location2" placeholder="Your Location" value="Manhattan, NY" required />
                                                     </div>
+
                                                     {/* <!--end form-group--> */}
                                                     <div class="form-group">
-                                                        <label for="about" class="col-form-label">More About You</label>
+                                                        <label for="about" class="col-form-label">More About You & Your Company</label>
                                                         <textarea name="about" id="about" class="form-control" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec tincidunt arcu, sit amet fermentum sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</textarea>
                                                     </div>
+
+
+                                                    <div class="form-group">
+
+                                                        <label for="details" class="col-form-label">Additional Details</label>
+                                                        <textarea name="details" id="details" class="form-control" rows="4"></textarea>
+                                                    </div>
+
                                                     {/* <!--end form-group--> */}
                                                 </section>
 
@@ -84,6 +123,11 @@ function myProfile(props) {
                                                         <label for="facebook" class="col-form-label">Facebook</label>
                                                         <input name="facebook" type="text" class="form-control" id="facebook" placeholder="http://" value="http://www.facebook.com/jane.doe" />
                                                     </div>
+                                                    <div class="form-group">
+                                                        <label for="instagram" class="col-form-label">Instagram</label>
+                                                        <input name="instagram" type="text" class="form-control" id="instagram" placeholder="http://" value="http://www.instagram.com/jane.doe" />
+                                                    </div>
+
                                                     {/* <!--end form-group--> */}
                                                 </section>
 

@@ -8,12 +8,15 @@ function sidebar(props) {
                 <Link class="nav-link active icon" to={`${process.env.PUBLIC_URL}/my-profile`}>
                     <i class="fa fa-user"></i>My Profile
                        </Link>
-                <a class="nav-link icon" href="my-ads.html">
-                    <i class="fa fa-heart"></i>My Ads Listing
+                <a class="nav-link icon" href={`${process.env.PUBLIC_URL}/add-project`} >
+                    <i class="fa fa-plus"></i>Add Project
                 </a>
-                <a class="nav-link icon" href="bookmarks.html">
-                    <i class="fa fa-check"></i>Sold Items
+                <a class="nav-link icon" href={`${process.env.PUBLIC_URL}/view-profile`} >
+                    <i class="fa fa-check"></i>View Profile
                  </a>
+                 <a class="nav-link icon" href={`${process.env.PUBLIC_URL}/msg-panel`} >
+                    <i class="fa fa-comments"></i>Messages
+                </a>
                 <a class="nav-link icon" href="change-password.html">
                     <i class="fa fa-cog"></i>Settings
                   </a>

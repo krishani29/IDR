@@ -2403,7 +2403,9 @@ h3 {
     margin-bottom: 2rem;
 }
 h4 {}
-h4.location {}
+h4.location {
+
+}
 h4.location:before {
     font-family: 'fontawesome';
     content: "\f041";
